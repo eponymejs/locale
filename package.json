@@ -1,0 +1,40 @@
+{
+  "name": "@eponyme/locale",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Dashboard interface translations for Eponyme.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eponymejs/locale.git"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "exports": {
+    "./es": {
+      "types": "./dist/es.d.mts",
+      "import": "./dist/es.mjs"
+    },
+    "./fr": {
+      "types": "./dist/fr.d.mts",
+      "import": "./dist/fr.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "check": "node scripts/check-keys.mjs",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "@karibsen/eponyme": ">=0.8.0"
+  },
+  "devDependencies": {
+    "unbuild": "^3.6.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
