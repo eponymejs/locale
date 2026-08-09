@@ -1,7 +1,7 @@
 import { defineBuildConfig } from 'unbuild'
 
 export default defineBuildConfig({
-  entries: ['src/es', 'src/fr'],
+  entries: ['src/de', 'src/es', 'src/fr', 'src/it', 'src/nl', 'src/pt'],
   declaration: true,
   clean: true,
   externals: ['@karibsen/eponyme'],

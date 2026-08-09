@@ -1,6 +1,6 @@
 {
   "name": "@eponyme/locale",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "Dashboard interface translations for Eponyme.",
   "repository": {
@@ -10,6 +10,10 @@
   "license": "MIT",
   "sideEffects": false,
   "exports": {
+    "./de": {
+      "types": "./dist/de.d.mts",
+      "import": "./dist/de.mjs"
+    },
     "./es": {
       "types": "./dist/es.d.mts",
       "import": "./dist/es.mjs"
@@ -17,6 +21,18 @@
     "./fr": {
       "types": "./dist/fr.d.mts",
       "import": "./dist/fr.mjs"
+    },
+    "./it": {
+      "types": "./dist/it.d.mts",
+      "import": "./dist/it.mjs"
+    },
+    "./nl": {
+      "types": "./dist/nl.d.mts",
+      "import": "./dist/nl.mjs"
+    },
+    "./pt": {
+      "types": "./dist/pt.d.mts",
+      "import": "./dist/pt.mjs"
     },
     "./package.json": "./package.json"
   },

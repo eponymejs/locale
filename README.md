@@ -35,8 +35,12 @@ message saying so.
 
 | Import | Language | `code` |
 |---|---|---|
+| `@eponyme/locale/de` | German | `de-DE` |
 | `@eponyme/locale/es` | Spanish | `es-ES` |
 | `@eponyme/locale/fr` | French | `fr-FR` |
+| `@eponyme/locale/it` | Italian | `it-IT` |
+| `@eponyme/locale/nl` | Dutch | `nl-NL` |
+| `@eponyme/locale/pt` | Portuguese | `pt-PT` |
 
 `code` is handed to `Intl`, so dates, numbers and lists in the dashboard follow the same language
 as the words around them.
