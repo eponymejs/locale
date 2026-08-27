@@ -74,8 +74,8 @@ this package does not know yet, and nothing breaks in the meantime.
 
 ## Adding a language
 
-1. Copy `src/en.json` — the reference catalogue, which Eponyme exposes at
-   `@karibsen/eponyme/locales/en.json` — to `src/<code>.json`.
+1. Copy `src/en.json` – the reference catalogue, which Eponyme exposes at
+   `@karibsen/eponyme/locales/en.json` – to `src/<code>.json`.
 2. Translate the values. Never touch the keys.
 3. Add `src/<code>.ts` with the factory, and its `plural` rule if the language needs one.
 4. Add the entry to `build.config.ts` and the subpath to `exports` in `package.json`.
@@ -92,7 +92,7 @@ A message with plural forms separates them with `|`, in this order: none, one, m
 ```
 
 `plural` maps a count to one of those three indices. The default is
-`count => count === 0 ? 0 : count === 1 ? 1 : 2`, which is what French and Spanish use — what
+`count => count === 0 ? 0 : count === 1 ? 1 : 2`, which is what French and Spanish use – what
 differs between them is the wording of the zero form (`0 élément`, `0 elementos`), and that lives
 in the catalogue, not in the rule.
 
@@ -113,7 +113,7 @@ must stand alone**: a closure over anything outside the function does not surviv
 
 ### Placeholders
 
-`{name}` is replaced from the parameters Eponyme passes. Keep every placeholder a message has —
+`{name}` is replaced from the parameters Eponyme passes. Keep every placeholder a message has –
 one that is dropped shows as literal `{count}` in the interface.
 
 ## Licence
