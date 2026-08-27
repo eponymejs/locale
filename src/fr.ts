@@ -15,7 +15,7 @@ import messages from './fr.json'
  * })
  * ```
  *
- * No `plural`: French selects the same three forms as the default rule — nought and one take the
+ * No `plural`: French selects the same three forms as the default rule – nought and one take the
  * singular, everything above takes the plural. What differs from English is the wording of the
  * zero form, and that lives in `fr.json`, not in the rule.
  */

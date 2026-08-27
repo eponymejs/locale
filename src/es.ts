@@ -16,7 +16,7 @@ import messages from './es.json'
  * ```
  *
  * No `plural`: Spanish selects the same three forms as the default rule. It differs from English
- * in that nought takes the plural — `0 elementos`, not `0 elemento` — and that is a matter of
+ * in that nought takes the plural – `0 elementos`, not `0 elemento` – and that is a matter of
  * wording, which lives in `es.json`, not of which form is chosen.
  */
 export function es(overrides: Record<string, string> = {}): EponymeLocaleDefinition {
