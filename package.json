@@ -1,6 +1,6 @@
 {
   "name": "@eponyme/locale",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "type": "module",
   "description": "Dashboard interface translations for Eponyme.",
   "repository": {
