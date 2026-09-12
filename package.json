@@ -48,6 +48,7 @@
     "@karibsen/eponyme": ">=0.8.0"
   },
   "devDependencies": {
+    "@karibsen/eponyme": "workspace:*",
     "unbuild": "^3.6.1"
   },
   "publishConfig": {
